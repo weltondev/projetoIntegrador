@@ -44,6 +44,10 @@ body {
   box-shadow: 2px 2px 2px black;
 }
 
+#formulario a {
+  text-decoration: none;
+}
+
 .input {
   width: 340px;
   height: 40px;
