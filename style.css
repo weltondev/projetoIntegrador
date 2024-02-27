@@ -69,3 +69,39 @@ body {
   background-color: #3d3de4;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 480px) {
+  #cabecalho {
+    color: white;
+    background-color: #06c21f;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #principal {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24%;
+  }
+
+  #formulario {
+    background-color: #26262600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 600px;
+    padding: 1.75rem;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
